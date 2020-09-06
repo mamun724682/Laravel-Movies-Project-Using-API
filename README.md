@@ -1,5 +1,7 @@
 ## Laravel Movies App Using API
 
+*Movies API:* [https://www.themoviedb.org/documentation/api](https://www.themoviedb.org/documentation/api)
+
 ## Packages Used
 
 - Tailwindcss
