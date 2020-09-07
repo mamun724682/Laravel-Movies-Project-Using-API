@@ -12,12 +12,12 @@
 		<div class="container mx-auto px-4 flex items-center justify-between px-4 py-6">
 			<ul class="flex items-center">
 				<li>
-					<a href="#">
+					<a href="{{ route('movies.index') }}">
 						<img class="w-32" src="{{ asset('nav.png') }}">
 					</a>
 				</li>
 				<li class="ml-16" style="margin-top: 12px">
-					<a href="" class="hover:text-gray-300">Movies</a>
+					<a href="{{ route('movies.index') }}" class="hover:text-gray-300">Movies</a>
 				</li>
 				<li class="ml-6" style="margin-top: 12px">
 					<a href="" class="hover:text-gray-300">TV Shows</a>
