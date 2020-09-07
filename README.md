@@ -5,6 +5,7 @@
 ## Packages Used
 
 - Tailwindcss
+- Livewire
 
 ## Installation Instruction
 
