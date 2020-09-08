@@ -6,6 +6,7 @@
 
 - Tailwindcss
 - Livewire
+- Tailwind CSS Spinner
 
 ## Installation Instruction
 
