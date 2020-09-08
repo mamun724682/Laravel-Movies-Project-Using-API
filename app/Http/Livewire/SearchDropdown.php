@@ -20,8 +20,7 @@ class SearchDropdown extends Component
                 
             $searchResults = collect($searchResults)->take(7);
     	}
-// dump($searchResults);
-
+    	
         return view('livewire.search-dropdown', compact('searchResults'));
     }
 }
