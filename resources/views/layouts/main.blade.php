@@ -6,6 +6,10 @@
 	<title>Movies App</title>
 
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
+
+	@livewireStyles
+	<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.6.0/dist/alpine.min.js" defer></script>
+
 </head>
 <body class="font-sans bg-gray-900 text-white">
 	<nav class="border-b border-gray-800">
@@ -27,9 +31,9 @@
 				</li>
 			</ul>
 			<div class="flex items-center">
-				<div class="flex-1 mr-3 leading-snug">
-					<input type="text" name="" class="bg-gray-800 rounded-full w-64 px-4 pl-8 py-1 focus:outline-none focus:shadow-outline" placeholder="Search">
-				</div>
+				
+				<livewire:search-dropdown/>
+				
 				<div class="rounded-full h-8 w-8 flex-shrink-0 mr-3 relative">
 					<img loading="lazy" src="{{ asset('avatar.png') }}" alt="Mohamed-Kaizen" class="absolute inset-0 z-negative w-full h-full">
 				</div>
@@ -40,5 +44,6 @@
 
 	@yield('content')
 
+	@livewireScripts
 </body>
 </html>
