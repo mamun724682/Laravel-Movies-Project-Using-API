@@ -36,7 +36,7 @@
 			</div>
 			@if (count($movie['videos']['results']) > 0)
 			<div class="mt-12">
-				<a href="https://www.youtube.com/watch?v={{ $movie['videos']['results'][1]['id'] }}" class="flex inline-flex items-center bg-orange-500 text-gray-900 rounded font-semibold px-5 py-4 hover:bg-orange-600 transition ease-in-out duration-150">
+				<a href="https://www.youtube.com/watch?v={{ $movie['videos']['results'][0]['id'] }}" class="flex inline-flex items-center bg-orange-500 text-gray-900 rounded font-semibold px-5 py-4 hover:bg-orange-600 transition ease-in-out duration-150">
 					<img class="w-6 fill-current" src="{{ asset('img/play-button.png') }}">
 					<span class="ml-2">Play Trailer</span>
 				</a>
